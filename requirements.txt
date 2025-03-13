@@ -1,0 +1,11 @@
+flask
+pandas
+numpy
+scikit-learn==1.3.2
+joblib
+imbalanced-learn
+xgboost
+seaborn
+matplotlib
+jupyter
+lime

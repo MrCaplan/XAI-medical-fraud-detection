@@ -1,0 +1,66 @@
+/* ✅ 기본 스타일 설정 */
+body {
+  background-color: #f4f4f4;
+  font-family: "Noto Sans KR", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ✅ 공통 컨테이너 스타일 */
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* ✅ 제목 스타일 */
+h2 {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* ✅ 입력 필드 스타일 */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* ✅ 버튼 스타일 */
+.btn-primary {
+  background: #007bff;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  width: 100%;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+  transform: scale(1.02);
+}
+
+/* ✅ 결과 페이지 스타일 */
+.result-container p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #444;
+}
+
+strong {
+  color: #e63946;
+}

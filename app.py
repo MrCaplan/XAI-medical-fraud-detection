@@ -10,7 +10,7 @@ from datetime import datetime
 
 app = Flask(__name__, static_folder="static")
 
-# ✅ 1️⃣ 데이터 생성 및 모델 학습
+# 데이터 생성 및 모델 학습
 X, y = make_classification(n_samples=500, n_features=8, n_informative=6, n_redundant=2, random_state=42)
 X[:, 4] = np.clip(X[:, 4], np.percentile(X[:, 4], 5), np.percentile(X[:, 4], 95))
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
